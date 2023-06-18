@@ -1,3 +1,5 @@
+"use client"
+
 import { FaProjectDiagram } from "react-icons/fa"
 import Title from "./Title"
 import amazona from "../public/assets/cover-amazona-training.png"

@@ -10,7 +10,7 @@ const Header = () => {
   useEffect(() => setMounted(true), [])
 
   return (
-    <header className="container mx-auto relative sticky top-0 z-50 ">
+    <header className="container mx-auto sticky top-0 z-50 ">
       <div className="flex items-center justify-between bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 mb-4">
         <a className="p-2" href="/">
           DINWEBDEV

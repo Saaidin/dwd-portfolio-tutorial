@@ -1,7 +1,9 @@
+"use client"
+
 type Props = {
-  title: string;
-  link: string;
-};
+  title: string
+  link: string
+}
 
 const SkillsInput = ({ title, link }: Props) => {
   return (
@@ -10,7 +12,7 @@ const SkillsInput = ({ title, link }: Props) => {
         {title}
       </p>
     </a>
-  );
-};
+  )
+}
 
-export default SkillsInput;
+export default SkillsInput

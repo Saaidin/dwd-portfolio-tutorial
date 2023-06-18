@@ -1,3 +1,5 @@
+"use client"
+
 import { FiArrowUpRight } from "react-icons/fi"
 import SocialLink from "./SocialLink"
 

@@ -1,3 +1,5 @@
+"use client"
+
 import { GiSkills } from "react-icons/gi"
 import Title from "./Title"
 import SkillsInput from "./SkillsInput"

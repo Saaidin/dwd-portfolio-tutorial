@@ -1,3 +1,5 @@
+"use client"
+
 import { FiArrowUpRight } from "react-icons/fi"
 type Props = {
   title: string
