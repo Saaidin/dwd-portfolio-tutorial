@@ -13,6 +13,7 @@ import ShoesStore from "../public/assets/cover-nike-shoes.png"
 import Airbnb from "../public/assets/cover-bnb-clone.png"
 import Sunglasses from "../public/assets/cover-sunglass-store.png"
 import Fashion from "../public/assets/cover-home-fashion.png"
+import Gym from "../public/assets/cover-gym.png"
 import ProjectCard from "./ProjectCard"
 
 const Projects = () => {
@@ -74,6 +75,11 @@ const Projects = () => {
           img={Fashion.src}
           title="Fashion Store"
           link="https://dwd-nextjs12-fashion-store.vercel.app/"
+        />
+        <ProjectCard
+          img={Gym.src}
+          title="Gym Outlets"
+          link="https://next13-gym-typescript.vercel.app/"
         />
       </div>
     </div>
